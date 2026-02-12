@@ -1,25 +1,72 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Opis projektu
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Travel Planner to aplikacja webowa umożliwiająca planowanie podróży, zarządzanie miejscami do odwiedzenia oraz sprawdzanie aktualnych warunków pogodowych dla wybranych lokalizacji.
 
-## React Compiler
+Celem projektu było stworzenie intuicyjnego narzędzia wspierającego organizację wyjazdów turystycznych.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Funkcjonalności
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Planowanie podróży
+- Dodawanie lokalizacji
+- Podgląd pogody
+- Nawigacja między widokami
+- Responsywny interfejs użytkownika
 
-## Etap 1
-Dodano podstawową strukturę projektu.
+---
 
-## Etap 2
-Dodano routing i strony aplikacji.
+## Wykorzystane technologie
 
-## Etap 3
-Dodano komponenty i stylowanie.
+- React
+- Vite
+- JavaScript ES6+
+- CSS3
+- React Router DOM
+- REST API (pogodowe)
+
+---
+
+## Instalacja
+
+1. Klonowanie repozytorium:
+
+git clone https://github.com/AdrianLeja/Web.git
+
+2. Przejście do folderu:
+
+cd travel-planner
+
+3. Instalacja zależności:
+
+npm install
+
+---
+
+## Uruchomienie aplikacji
+
+npm run dev
+
+## Build produkcyjny
+
+npm run build
+
+---
+
+## Struktura projektu
+
+src/
+components/
+pages/
+assets/
+App.jsx
+main.jsx
+
+---
+
+## Autor
+
+Adrian Leja 69985 
+Jakub Dobrowolski 69969
