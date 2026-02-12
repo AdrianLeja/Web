@@ -17,3 +17,6 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ## Etap 1
 Dodano podstawową strukturę projektu.
+
+## Etap 2
+Dodano routing i strony aplikacji.
