@@ -20,3 +20,6 @@ Dodano podstawową strukturę projektu.
 
 ## Etap 2
 Dodano routing i strony aplikacji.
+
+## Etap 3
+Dodano komponenty i stylowanie.
